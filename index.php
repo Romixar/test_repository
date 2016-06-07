@@ -1,3 +1,7 @@
+$url = "http://myeshop.ru?up=1&sort=title&up=0&sort=price&up=1";
+	$param = 'up';
+echo deleteGET($url, $param);
+
 function deleteGET($url, $param){
         //удаление параметра GET из адр строки
         $res = $url;
